@@ -2,19 +2,20 @@ body {
   height: 100vh;
 }
 
-#landing {
+#Landing {
   background-image: url('./hotel1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  width: 100vw;
 }
 
 ul.nav-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 75px 10px;
+  padding-top: 75px;
+  width: 100%;
 }
 
 .nav-menu li {
@@ -34,12 +35,20 @@ ul.nav-menu {
   margin-top: -190px;
 }
 
+.bootstrap-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+}
+
 .potential {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .h1-potential {
@@ -54,8 +63,9 @@ ul.nav-menu {
 }
 
 .down-arrow {
-  height: 30px;
+  height: 45px;
   width: 95px;
+  padding-bottom: 25px;
 }
 
 #LandingPartTwo {
@@ -80,7 +90,7 @@ ul.nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 p.filler {
