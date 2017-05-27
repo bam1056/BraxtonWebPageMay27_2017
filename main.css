@@ -10,6 +10,22 @@ body {
   width: 100vw;
 }
 
+#MobileMenu {
+  display: none;
+  background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5) ), url('./condoMarinaIsle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#test {
+  background-color:rgba(250,250,250,0.8);
+  height: 100%;
+  padding-top: 75px;
+}
+
 ul.nav-menu {
   display: flex;
   flex-direction: row;
@@ -18,6 +34,29 @@ ul.nav-menu {
   width: 100%;
 }
 
+.hamburger {
+  display:none;
+}
+
+@media (max-width: 900px) {
+  .nav-menu li.nav { display: none;}
+  .hamburger {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    font-size: 1.25em;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px
+  }
+}
 .nav-menu li {
   color: white;
   list-style: none;
@@ -191,11 +230,35 @@ p.filler {
   justify-content: center;
   background-color: #E2E0E0;
 }
-/*.map-image {
-  background-image: url('./map.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width:100%;
-  height: 700px;
-}*/
+
+/*mobile list styling */
+.mobileNav{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250,250,250,0.3);
+  list-style: none;
+  align-items: center;
+
+}
+/*mobile list links styling */
+#residenceLink a,#amenitiesLink a,#galleryLink a,#locationLink a,#mediaLink a,#contactLink a {
+  text-decoration: none;
+  font-color: #0F3559;
+}
+/*mobile list styling*/
+#residenceLink,#amenitiesLink,#galleryLink ,#locationLink,#mediaLink,#contactLink {
+  font-color: #0F3559;
+  font-type: roboto;
+  font-weight: 400;
+  type-decoration: none;
+}
+/* nested list on click */
+.condoUnits{
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  display:none;
+  }
+#unitOne,#unitTwo{
+  margin-left: -20px;
+}
