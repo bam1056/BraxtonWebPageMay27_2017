@@ -1,0 +1,189 @@
+body {
+  height: 100vh;
+}
+
+#landing {
+  background-image: url('./hotel1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+ul.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 75px 10px;
+}
+
+.nav-menu li {
+  color: white;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.nav-menu li.logo {
+  background-image: url(./logo_white.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 400px;
+  margin-top: -190px;
+}
+
+.potential {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.h1-potential {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.h1-potential span.capital {
+  font-size: 155%;
+}
+
+.down-arrow {
+  height: 30px;
+  width: 95px;
+}
+
+#LandingPartTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5DC;
+}
+
+.diagonal-sunset-image {
+  margin: 100px 0;
+  background-image: url('./sunsetDiamond.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 200px;
+}
+
+.lorem-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+p.filler {
+  width: 50%;
+  text-align: center;
+}
+
+#LandingPartThree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.diagonal-woman-image {
+  margin: 100px 0;
+  background-image: url('./skyDiamond.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 200px;
+}
+
+#LandingPartFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5DC;
+}
+
+.diagonal-glass-image {
+  margin: 100px 0;
+  background-image: url('./glassViewDiamond.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 200px;
+}
+
+#LandingPartFive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.diagonal-palm-image {
+  margin: 100px 0;
+  background-image: url('./palmsDiamond.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 800px;
+  height: 200px;
+}
+
+#RequestInfo {
+  background-color: #71879C;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.request-button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  opacity: 55%;
+  text-align: center;
+  padding: 5px;
+}
+
+.request-button h5 {
+  padding: 0 10px;
+}
+
+.learn-more {
+  color: #71879C;
+}
+
+.lorem-title h1 {
+  color: #71879C;
+font-family: 'Crimson Text', serif;
+}
+
+#Map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.map-image {
+  background-image: url('./map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 600px;
+}
