@@ -55,6 +55,7 @@ ul.nav-menu {
   font-size: 2.5em;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 2px black;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -171,7 +172,8 @@ p.filler {
 }
 
 .request-button h5 {
-  padding: 0 10px;
+  padding: 5px 10px;
+  margin-top: 0.5rem;
 }
 
 .learn-more {
@@ -188,12 +190,13 @@ p.filler {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #E2E0E0;
 }
-.map-image {
+/*.map-image {
   background-image: url('./map.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
-  height: 600px;
-}
+  height: 700px;
+}*/
